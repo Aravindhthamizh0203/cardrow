@@ -1,38 +1,42 @@
-.App {
+.user{
+  border:solid 0.3rem;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: solid 0.5rem;
+  background-color: lightgray;
+  align-content: center;
+  justify-content: space-between;
+}
+.App{
+  justify-content: center;
+  padding: 10%;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+@media (min-width: 720px) {
+  .App{
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }}
+.prise{
+  margin-bottom: 1rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.plan{
+  opacity: 0.5;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button{
+  border:solid 0.01rem;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 0.1rem;
+  transition: all 0.2s;
+  text-align: center;
+  align-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media (min-width: 720px) {
+  .App.user:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }}
