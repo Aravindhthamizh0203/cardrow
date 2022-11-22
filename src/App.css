@@ -3,19 +3,19 @@
   border-radius: 1rem;
   padding: 3rem;
   margin: solid 0.5rem;
-  background-color: lightgray;
+  background-color: #fff;
   align-content: center;
   justify-content: space-between;
+  transition: all 0.2s;
+  
 }
 .App{
   justify-content: center;
   padding: 10%;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  display: flex;
+  justify-content: space-evenly;
 }
-@media (min-width: 720px) {
-  .App{
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-  }}
 .prise{
   margin-bottom: 1rem;
   text-align: center;
@@ -33,6 +33,9 @@
   transition: all 0.2s;
   text-align: center;
   align-content: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(111, 166, 196);
 }
 @media (min-width: 720px) {
   .App.user:hover {

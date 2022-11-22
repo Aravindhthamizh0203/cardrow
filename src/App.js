@@ -49,7 +49,7 @@ function App() {
             <div key={i} className="user">
               <Usr name={user.name} cost={user.cost} des={user.des} des1={user.des1} des2={user.des2} des3={user.des3} des4={user.des4} des5={user.des5} des6={user.des6} des7={user.des7} />
               <div class="d-grid">
-                <a href="#" class="button"><b>view more for sub</b></a>
+                <a href="#" class="button"><b>view more</b></a>
               </div>
 
             </div>
