@@ -6,7 +6,7 @@
   background-color: #fff;
   align-content: center;
   justify-content: space-between;
-  transition: all 0.2s;
+  
   
 }
 .App{
@@ -34,7 +34,7 @@
   text-align: center;
   align-content: center;
   justify-content: center;
-  color: #fff;
+  color: #000;
   background-color: rgb(111, 166, 196);
 }
 @media (min-width: 720px) {
@@ -43,3 +43,4 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }}
+  
